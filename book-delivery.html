@@ -155,7 +155,129 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="home-tab-pane" role="tabpanel" aria-labelledby="home-tab"
                     tabindex="0">
+                    <form class="row mx-0 g-3  needs-validation p-3 form-hero">
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Enter Sender pick-up Address</label>
+                            <input type="text" class="form-control" id="validationCustom01"
+                                value="Enter Sender pick-up Address" required>
 
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Enter receiver’s delivery address</label>
+                            <input type="text" class="form-control" id="validationCustom02"
+                                value="Enter receiver’s delivery address" required>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Enter pick-up time</label>
+                            <input type="text" class="form-control" id="validationCustom02" value="Enter pick-up time"
+                                required>
+
+                        </div>
+
+                        <img src="assets/img/Group 13153.png" alt="" class="img-fluid">
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="Name" required>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="validationCustom02" value="91" required>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="validationCustom02" value="Email" required>
+
+                        </div>
+                        <img src="assets/img/Group 13153.png" alt="" class="img-fluid">
+
+
+                        <div class="col-md-4">
+                            <label for="validationCustom01" class="form-label">Name</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="Name" required>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Phone Number</label>
+                            <input type="number" class="form-control" id="validationCustom02" value="91" required>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Email</label>
+                            <input type="email" class="form-control" id="validationCustom02" value="Email" required>
+
+                        </div>
+                        <div class="col-md-4">
+                            <label for="validationCustom02" class="form-label">Select weight</label>
+                            <input type="number" class="form-control" id="validationCustom02" value="0-10"
+                                placeholder="0-10" required>
+
+                        </div>
+
+                        <div class="col-md-3">
+                            <label for="validationCustom02" class="form-label">Select User</label>
+                            <div class="d-flex mt-3">
+                                <div class="form-check">
+                                    <label class="form-check-label form-label ratio" for="flexRadioDefault1">
+                                        Business User
+                                    </label>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+
+                                </div>
+                                <div class="form-check mx-3">
+                                    <label class="form-check-label form-label ratio" for="flexRadioDefault1">
+                                        Consumer user
+                                    </label>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-3">
+                            <label for="validationCustom02" class="form-label">Courier type</label>
+                            <div class="d-flex mt-3">
+                                <div class="form-check">
+                                    <label class="form-check-label form-label ratio" for="flexRadioDefault1">
+                                        Document
+                                    </label>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+
+                                </div>
+                                <div class="form-check mx-3">
+                                    <label class="form-check-label form-label ratio" for="flexRadioDefault1">
+                                        Parcel
+                                    </label>
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-2">
+                            <label for="validationCustom02" class="form-label">Fragile </label>
+                            <div class="form-check form-switch mt-3">
+                                <input class="form-check-input" type="checkbox" role="switch"
+                                    id="flexSwitchCheckDefault">
+
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-12 text-center">
+                            <button class="btn btn-primary send-button" href="get-estimation.html" type="submit" 
+                                style="background-color: #fcd00b !important;padding: 10px 70px;">Get
+                                Estimations</button>
+                        </div>
+                    </form>
                 </div>
                 <div class="tab-pane fade" id="profile-tab-pane" role="tabpanel" aria-labelledby="profile-tab"
                     tabindex="0">
@@ -277,7 +399,7 @@
 
 
                         <div class="col-12 text-center">
-                            <button class="btn btn-primary send-button" type="submit"
+                            <button class="btn btn-primary send-button" href="get-estimation.html" type="submit" 
                                 style="background-color: #fcd00b !important;padding: 10px 70px;">Get
                                 Estimations</button>
                         </div>
@@ -288,122 +410,7 @@
                 <div class="tab-pane fade" id="disabled-tab-pane" role="tabpanel" aria-labelledby="disabled-tab"
                     tabindex="0">...</div>
             </div>
-            <form class="row g-3 needs-validation p-3 form-hero">
-                <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Enter Sender pick-up Address</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="Enter Sender pick-up Address"
-                        required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Enter receiver’s delivery address</label>
-                    <input type="text" class="form-control" id="validationCustom02"
-                        value="Enter receiver’s delivery address" required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Enter pick-up time</label>
-                    <input type="text" class="form-control" id="validationCustom02" value="Enter pick-up time" required>
-
-                </div>
-
-                <img src="assets/img/Group 13153.png" alt="" class="img-fluid">
-                <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="Name" required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Phone Number</label>
-                    <input type="number" class="form-control" id="validationCustom02" value="91" required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="validationCustom02" value="Email" required>
-
-                </div>
-                <img src="assets/img/Group 13153.png" alt="" class="img-fluid">
-
-
-                <div class="col-md-4">
-                    <label for="validationCustom01" class="form-label">Name</label>
-                    <input type="text" class="form-control" id="validationCustom01" value="Name" required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Phone Number</label>
-                    <input type="number" class="form-control" id="validationCustom02" value="91" required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Email</label>
-                    <input type="email" class="form-control" id="validationCustom02" value="Email" required>
-
-                </div>
-                <div class="col-md-4">
-                    <label for="validationCustom02" class="form-label">Select weight</label>
-                    <input type="number" class="form-control" id="validationCustom02" value="0-10" placeholder="0-10"
-                        required>
-
-                </div>
-
-                <div class="col-md-3">
-                    <label for="validationCustom02" class="form-label">Select User</label>
-                    <div class="d-flex mt-3">
-                        <div class="form-check">
-                            <label class="form-check-label form-label ratio" for="flexRadioDefault1">
-                                Business User
-                            </label>
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-
-                        </div>
-                        <div class="form-check mx-3">
-                            <label class="form-check-label form-label ratio" for="flexRadioDefault1">
-                                Consumer user
-                            </label>
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-
-                        </div>
-                    </div>
-
-                </div>
-                <div class="col-md-3">
-                    <label for="validationCustom02" class="form-label">Courier type</label>
-                    <div class="d-flex mt-3">
-                        <div class="form-check">
-                            <label class="form-check-label form-label ratio" for="flexRadioDefault1">
-                                Document
-                            </label>
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-
-                        </div>
-                        <div class="form-check mx-3">
-                            <label class="form-check-label form-label ratio" for="flexRadioDefault1">
-                                Parcel
-                            </label>
-                            <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1">
-
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-2">
-                    <label for="validationCustom02" class="form-label">Fragile </label>
-                    <div class="form-check form-switch mt-3">
-                        <input class="form-check-input" type="checkbox" role="switch" id="flexSwitchCheckDefault">
-
-                    </div>
-                </div>
-
-
-
-                <div class="col-12 text-center">
-                    <button class="btn btn-primary send-button" type="submit"
-                        style="background-color: #fcd00b !important;padding: 10px 70px;">Get Estimations</button>
-                </div>
-            </form>
+           
         </div>
 
     </section>
