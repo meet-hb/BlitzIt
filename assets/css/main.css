@@ -146,7 +146,7 @@ h6 {
   .header .btn-getstarted {
     order: 2;
     margin: 0 15px 0 0;
-    padding: 6px 15px;
+    padding: 6px 8px;
   }
 
   .header .navmenu {
@@ -2132,7 +2132,7 @@ section,
   background-color: #696969;
 }
 .send-button{
-  height: 60px !important;
+  height: auto !important;
   border-radius: 10px !important;
   background-color: #fff !important;
   color: #000 !important;
@@ -2224,4 +2224,15 @@ section,
 }
 .nav-tabs .nav-link{
   border: 1px solid #fff !important;
+}
+
+@media only screen and (max-width: 1280px) {
+  .hero h2{
+    font-size: 55px !important;
+  }
+
+  .contact .php-email-form button[type=submit] {
+    padding: 10px 15px !important;
+  }
+ 
 }
