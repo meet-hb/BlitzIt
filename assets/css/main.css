@@ -2271,3 +2271,7 @@ section,
 /* .serv{
   gap: 100px;
 } */
+ .border-card{
+  border-radius: 15px !important;
+  border: 1px solid #FCD00B !important;
+ }
