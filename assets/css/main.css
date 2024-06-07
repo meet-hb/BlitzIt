@@ -2236,11 +2236,14 @@ section,
 
 @media only screen and (max-width: 1280px) {
   .hero h2{
-    font-size: 55px !important;
+    font-size: 50px !important;
   }
 
   .contact .php-email-form button[type=submit] {
     padding: 10px 15px !important;
+  }
+  .hero{
+    padding: 100px 0 0px 0 !important;
   }
  
 }
