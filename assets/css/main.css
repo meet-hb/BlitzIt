@@ -2245,5 +2245,10 @@ section,
   .hero{
     padding: 100px 0 0px 0 !important;
   }
+  .featured-services .service-item .title a{
+    font-size: 18px !important;
+    font-family: "Red Rose" !important;
+    color: #000 !important;
+  }
  
 }
