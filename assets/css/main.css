@@ -2251,12 +2251,12 @@ section,
     color: #000 !important;
   }
 
-  .container, .container-lg, .container-md, .container-sm, .container-xl {
+  /* .container, .container-lg, .container-md, .container-sm, .container-xl {
     max-width: 991px !important;
-}
- .serv{
+} */
+ /* .serv{
   gap: 60px !important;
- }
+ } */
 }
 
 .standard{
@@ -2268,6 +2268,6 @@ section,
 .standard-card{
   height: 62px !important;
 }
-.serv{
+/* .serv{
   gap: 100px;
-}
+} */
