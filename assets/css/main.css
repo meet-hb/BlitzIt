@@ -2252,3 +2252,13 @@ section,
   }
  
 }
+
+.standard{
+  font-size: 24px !important;
+  font-family: "Red Hat Text" !important;
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+.standard-card{
+  height: 62px !important;
+}
