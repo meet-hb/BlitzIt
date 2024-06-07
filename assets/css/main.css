@@ -2250,6 +2250,10 @@ section,
     font-family: "Red Rose" !important;
     color: #000 !important;
   }
+
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 991px !important;
+}
  .serv{
   gap: 60px !important;
  }
