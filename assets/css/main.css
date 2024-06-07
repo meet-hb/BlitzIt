@@ -2250,7 +2250,9 @@ section,
     font-family: "Red Rose" !important;
     color: #000 !important;
   }
- 
+ .serv{
+  gap: 60px !important;
+ }
 }
 
 .standard{
@@ -2261,4 +2263,7 @@ section,
 }
 .standard-card{
   height: 62px !important;
+}
+.serv{
+  gap: 100px;
 }
