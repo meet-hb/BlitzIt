@@ -691,7 +691,7 @@ section,
 .section {
   color: var(--default-color);
   background-color: #FFFCF3;
-  padding: 60px 0;
+  padding: 30px 0;
   scroll-margin-top: 100px;
   overflow: clip;
 }
