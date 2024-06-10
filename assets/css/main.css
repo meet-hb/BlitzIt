@@ -2336,3 +2336,70 @@ section,
   color: #002060 !important;
   font-weight: bold !important;
 }
+.payment-title{
+  font-size: 20px !important;
+  font-family: "Red Hat Text" !important;
+  color: #000 !important;
+  font-weight: 500 !important;
+}
+.Pay{
+  font-size: 16px !important;
+  font-family: "Red Hat Text" !important;
+  font-weight: 600 !important;
+}
+.pay-para{
+  font-family: "Red Hat Text" !important;
+  font-size: 16px !important;
+  color: #595959 !important;
+}
+.right-part{
+  height: 90vh !important;
+}
+.head-main{
+  font-size: 24px;
+  font-family: "Red Hat Text" !important;
+  font-weight: 500 !important;
+  color: #000 !important;
+}
+.check-ou{
+  font-size: 14px !important;
+  color: #000 !important;
+  font-family: "Red Hat Text" !important;
+}
+.brd{
+  border: 1px solid #E0E0E0 !important;
+  color: #000 !important;
+}
+.txte{
+  color: #002060 !important;
+  font-size: 16px !important;
+  font-family: "Red Rose" !important;
+  font-weight: bold !important;
+}
+.profile{
+  font-size: 24px !important;
+  font-family: "Red Hat Text" !important;
+  font-weight: 500 !important;
+  color: #002060 !important;
+}
+.tabb1{
+  text-align: left;
+  color: #000 !important;
+  font-size: 16px !important;
+  font-size: "Red Hat Text" !important;
+  font-weight: 600 !important;
+}
+.nav-link{
+  background-color: #FFFCF3 !important;
+  padding: 10px 30px;
+  border-radius: 10px !important;
+  color: #595959 !important;
+  
+}
+.nav-link.active{
+  background-color: #fcd00b !important;
+  padding: 10px 30px;
+  border-radius: 10px !important;
+  border: 1px solid #fcd00b !important;
+  color: #000 !important;
+}

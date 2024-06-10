@@ -1,0 +1,503 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <title>BlitzIt -fastest courier service provider </title>
+    <meta content="" name="description">
+    <meta content="" name="keywords">
+
+    <!-- Favicons -->
+    <link href="assets/img/Frame.png" style="width: 50px;" rel="icon">
+    <link href="assets/img/Frame.png" rel="apple-touch-icon">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Red+Rose:wght@300..700&display=swap" rel="stylesheet">
+
+    <!-- Vendor CSS Files -->
+    <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+    <link href="assets/vendor/fontawesome-free/css/all.min.css" rel="stylesheet">
+    <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+    <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link href="assets/css/main.css" rel="stylesheet">
+
+</head>
+
+<style>
+    .form-label {
+        color: #000;
+        font-family: "Red Hat Text" !important;
+        font-size: 16px !important;
+        font-weight: 600;
+    }
+
+    .hero form .form-control {
+        border: 1px solid #E0E0E0 !important;
+        border-radius: 10px !important;
+        height: 45px !important;
+        font-size: 16px !important;
+        font-family: "Red Hat Text" !important;
+        color: #000 !important;
+    }
+
+    .form-check-input:checked {
+        background-color: #000000 !important;
+        border-color: #000000 !important;
+    }
+
+    .form-switch .form-check-input {
+        background-color: #fcd00b !important;
+        border: 1px solid #fcd00b !important;
+    }
+
+    .card-title {
+        font-family: "Red Rose" !important;
+        font-size: 26px !important;
+        color: #000 !important;
+        font-weight: bolder !important;
+    }
+
+    .card-img,
+    .card-img-bottom,
+    .card-img-top {
+        width: 75%;
+        justify-content: center;
+    }
+</style>
+
+<body>
+    <header id="header" class="header d-flex align-items-center fixed-top bg-white">
+        <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+            <a href="index.html" class="logo d-flex align-items-center me-auto">
+                <!-- Uncomment the line below if you also wish to use an image logo -->
+                <!-- <img src="assets/img/logo.png" alt=""> -->
+                <img src="assets/img/Frame 666.png" alt="logo">
+            </a>
+
+            <nav id="navmenu" class="navmenu">
+                <ul>
+                    <li><a href="index.html">Home<br></a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="services.html">Services</a></li>
+                    <li><a href="pricing.html">Pricing</a></li>
+                    <li class="dropdown"><a href="#"><span>Dropdown</span> <i
+                                class="bi bi-chevron-down toggle-dropdown"></i></a>
+                        <ul>
+                            <li><a href="#">Dropdown 1</a></li>
+                            <li class="dropdown"><a href="#"><span>Deep Dropdown</span> <i
+                                        class="bi bi-chevron-down toggle-dropdown"></i></a>
+                                <ul>
+                                    <li><a href="#">Deep Dropdown 1</a></li>
+                                    <li><a href="#">Deep Dropdown 2</a></li>
+                                    <li><a href="#">Deep Dropdown 3</a></li>
+                                    <li><a href="#">Deep Dropdown 4</a></li>
+                                    <li><a href="#">Deep Dropdown 5</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Dropdown 2</a></li>
+                            <li><a href="#">Dropdown 3</a></li>
+                            <li><a href="#">Dropdown 4</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+                <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+            </nav>
+
+            <a class="btn-getstarted" href="get-a-quote.html">Book your Delivery</a>
+
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero section">
+
+
+        <div class="container">
+
+
+            <div class="card" style="border-radius: 22px;">
+                <div class="row gy-4">
+                    <div class="col-lg-12 order-2 p-5 order-lg-1 d-flex flex-column">
+
+                        <div class="row">
+                            <div class="col-lg-3">
+                                <div class="nav flex-column nav-pills me-3" id="v-pills-tab" role="tablist"
+                                    aria-orientation="vertical">
+                                    <button class="nav-link active tabb1" id="v-pills-home-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-home" type="button" role="tab"
+                                        aria-controls="v-pills-home" aria-selected="true"><i
+                                            class="fa-solid fa-user-pen"></i><span class="mx-3">My
+                                            Profile</span></button>
+                                    <button class="nav-link tabb1 mt-3" id="v-pills-profile-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-profile" type="button" role="tab"
+                                        aria-controls="v-pills-profile" aria-selected="false"><i
+                                            class="fa-solid fa-rectangle-list"></i><span class="mx-3">My
+                                            Order</span></button>
+                                    <button class="nav-link tabb1 mt-3" id="v-pills-sub-tab" data-bs-toggle="pill"
+                                        data-bs-target="#v-pills-sub" type="button" role="tab"
+                                        aria-controls="v-pills-sub" aria-selected="false"><i
+                                            class="fa-solid fa-sack-dollar"></i><span class="mx-3">My
+                                            Subscription</span></button>
+
+                                </div>
+                            </div>
+                            <div class="col-lg-9" style="border-left: 1px solid #E0E0E0;">
+                                <div class="tab-content" id="v-pills-tabContent"
+                                    style="overflow:hidden; height: 300px;">
+                                    <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel"
+                                        aria-labelledby="v-pills-home-tab" tabindex="0">
+
+
+                                        <h3 class="FAQ-TITLE profile">My Profile</h3>
+
+                                        <form class="row  needs-validation">
+                                            <div class="col-md-6 position-relative">
+
+                                                <input type="text" class="form-control brd" id="validationTooltip01"
+                                                    value="Meet" required>
+                                                <div class="valid-tooltip">
+                                                    Looks good!
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6 position-relative">
+
+                                                <input type="text" class="form-control brd" id="validationTooltip02"
+                                                    value="Kumar" required>
+                                                <div class="valid-tooltip">
+                                                    Looks good!
+                                                </div>
+                                            </div>
+
+
+                                            <div class="col-md-6 mt-4 position-relative">
+
+                                                <input type="email" class="form-control brd" id="validationTooltip02"
+                                                    value="Email" required>
+                                                <div class="valid-tooltip">
+                                                    Looks good!
+                                                </div>
+                                            </div>
+
+                                            <div class="col-md-6 mt-4 position-relative">
+
+                                                <input type="number" class="form-control brd" id="validationTooltip02"
+                                                    placeholder="+91" required>
+                                                <div class="valid-tooltip">
+                                                    Looks good!
+                                                </div>
+                                            </div>
+
+                                            <div class="col-12 d-flex mt-5">
+                                                <button class="btn btn-primary send-button" type="submit"
+                                                    style="background-color: #fcd00b !important;padding: 10px 60px;"><a
+                                                        href="#" class="text-dark">Save</a></button>
+                                                <div class="txt ms-auto mt-2">
+                                                    <h4 class="text-dark txte">Forgot Password</h4>
+                                                </div>
+
+
+                                        </form>
+
+                                    </div>
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent"
+                                    style="overflow:hidden; height: 300px;">
+
+                                    <div class="tab-pane fade" id="v-pills-profile" role="tabpanel"
+                                        aria-labelledby="v-pills-profile-tab" tabindex="0">
+
+
+                                        <h3 class="FAQ-TITLE profile">My Order</h3>
+
+                                        <div class="container">
+                                            <div class="1" data-bs-spy="scroll" style="overflow: auto; height: 300px;">
+                                                <div class="card" style="border-radius: 15px;">
+                                                    <div class="row">
+                                                        <div class="col-lg-2 p-3">
+                                                            <div class="img-bike p-2 mx-2"
+                                                                style="background-color: #FFFCF3;">
+                                                                <img src="assets/img/g.png" alt=""
+                                                                    class="img-fluid mx-3">
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-lg-4 p-4">
+                                                            <h4 class="FAQ-TITLE profile">Two Wheeler</h4>
+                                                            <h5
+                                                                style="font-weight: 400 !important;color: #000; font-size: 14px; font-family: Red Hat Text;">
+                                                                Weight: <span
+                                                                    style="font-weight: bolder;color: #000; font-size: 14px; font-family: Red Hat Text;">20Kg</span>
+                                                            </h5>
+
+                                                            <h5
+                                                                style="font-weight: 200 !important;color: #000; font-size: 14px; font-family: Red Hat Text;">
+                                                                Order Id:<span
+                                                                    style="font-weight: bolder; font-size: 14px; font-family: Red Hat Text;"><span
+                                                                        class="mx-2 mt-2"
+                                                                        style="color: #002060;font-weight: bolder">#
+                                                                        785E9KJ5785</span></span></h5>
+                                                        </div>
+                                                        <div class="col-lg-3 p-4">
+                                                            <label for="validationCustom02" class="form-label">Fragile
+                                                            </label>
+                                                            <div class="form-check form-switch mt-3">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    role="switch" id="flexSwitchCheckDefault">
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 p-4 text-center">
+                                                            <label for="validationCustom02"
+                                                                class="form-label">Status:</label><br>
+                                                            <button type="button"
+                                                                class="btn btn-outline-warning text-dark">Shopping</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+                                                <div class="card mt-3" style="border-radius: 15px;">
+                                                    <div class="row">
+                                                        <div class="col-lg-2 p-3">
+                                                            <div class="img-bike p-2 mx-2"
+                                                                style="background-color: #FFFCF3;">
+                                                                <img src="assets/img/g1.png" alt=""
+                                                                    class="img-fluid mx-2">
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-lg-4 p-4">
+                                                            <h4 class="FAQ-TITLE profile">Four Wheeler</h4>
+                                                            <h5
+                                                                style="font-weight: 400 !important;color: #000; font-size: 14px; font-family: Red Hat Text;">
+                                                                Weight: <span
+                                                                    style="font-weight: bolder;color: #000; font-size: 14px; font-family: Red Hat Text;">20Kg</span>
+                                                            </h5>
+
+                                                            <h5
+                                                                style="font-weight: 200 !important;color: #000; font-size: 14px; font-family: Red Hat Text;">
+                                                                Order Id:<span
+                                                                    style="font-weight: bolder; font-size: 14px; font-family: Red Hat Text;"><span
+                                                                        class="mx-2 mt-2"
+                                                                        style="color: #002060;font-weight: bolder">#
+                                                                        785E9KJ5785</span></span></h5>
+                                                        </div>
+                                                        <div class="col-lg-3 p-4">
+                                                            <label for="validationCustom02" class="form-label">Fragile
+                                                            </label>
+                                                            <div class="form-check form-switch mt-3">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    role="switch" id="flexSwitchCheckDefault">
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 p-4 text-center">
+                                                            <label for="validationCustom02"
+                                                                class="form-label">Status:</label><br>
+                                                            <button type="button"
+                                                                class="btn btn-outline-success text-dark">Delivered</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="card mt-3" style="border-radius: 15px;">
+                                                    <div class="row">
+                                                        <div class="col-lg-2 p-3">
+                                                            <div class="img-bike p-2 mx-2"
+                                                                style="background-color: #FFFCF3;">
+                                                                <img src="assets/img/g.png" alt=""
+                                                                    class="img-fluid mx-3">
+                                                            </div>
+
+                                                        </div>
+                                                        <div class="col-lg-4 p-4">
+                                                            <h4 class="FAQ-TITLE profile">Two Wheeler</h4>
+                                                            <h5
+                                                                style="font-weight: 400 !important;color: #000; font-size: 14px; font-family: Red Hat Text;">
+                                                                Weight: <span
+                                                                    style="font-weight: bolder;color: #000; font-size: 14px; font-family: Red Hat Text;">20Kg</span>
+                                                            </h5>
+
+                                                            <h5
+                                                                style="font-weight: 200 !important;color: #000; font-size: 14px; font-family: Red Hat Text;">
+                                                                Order Id:<span
+                                                                    style="font-weight: bolder; font-size: 14px; font-family: Red Hat Text;"><span
+                                                                        class="mx-2 mt-2"
+                                                                        style="color: #002060;font-weight: bolder">#
+                                                                        785E9KJ5785</span></span></h5>
+                                                        </div>
+                                                        <div class="col-lg-3 p-4">
+                                                            <label for="validationCustom02" class="form-label">Fragile
+                                                            </label>
+                                                            <div class="form-check form-switch mt-3">
+                                                                <input class="form-check-input" type="checkbox"
+                                                                    role="switch" id="flexSwitchCheckDefault">
+
+                                                            </div>
+                                                        </div>
+                                                        <div class="col-lg-3 p-4 text-center">
+                                                            <label for="validationCustom02"
+                                                                class="form-label">Status:</label><br>
+                                                            <button type="button"
+                                                                class="btn btn-outline-warning text-dark">Shopping</button>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                                <div class="tab-content" id="v-pills-tabContent"
+                                    style="overflow:hidden; height: 300px;">
+
+                                    <div class="tab-pane fade" id="v-pills-sub" role="tabpanel"
+                                        aria-labelledby="v-pills-sub-tab" tabindex="0">
+
+
+                                        <h3 class="FAQ-TITLE profile">My Subscription</h3>
+
+                                        <div class="container">
+
+
+                                        </div>
+
+                                    </div>
+
+
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+
+        </div>
+        </div>
+
+    </section><!-- /Hero Section -->
+
+
+
+
+
+
+
+
+
+    <footer id="footer" class="footer">
+
+        <div class="container footer-top">
+            <div class="row gy-4">
+                <div class="col-lg-3 col-md-12 footer-about">
+                    <a href="index.html" class="logo d-flex align-items-center">
+                        <img src="assets/img/Frame 6666.png" alt="logo">
+                    </a>
+                    <!-- <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p> -->
+                    <div class="social-links d-flex mt-5">
+                        <a href=""><i class="bi bi-twitter-x"></i></a>
+                        <a href=""><i class="bi bi-facebook"></i></a>
+                        <a href=""><i class="bi bi-instagram"></i></a>
+                        <a href=""><i class="bi bi-linkedin"></i></a>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+                    <h4 class="footer-contact">Contact Info</h4>
+                    <p class="footer-add">3517 W. Gray St. Utica,</p>
+                    <p class="footer-add">Pennsylvania 57867</p>
+
+                    <!-- <p class="mt-4"><strong>Phone:</strong> <span>+1 5589 55488 55</span></p> -->
+                    <p class="mt-5 footer-email"><u><span>hello@example.io</span></u></p>
+                </div>
+                <div class="col-lg-2 col-6 footer-links">
+                    <h4 class="footer-contact">Useful Links</h4>
+                    <ul>
+                        <li class="footer-add"><a href="#">Home</a></li>
+                        <li class="footer-add"><a href="#">About us</a></li>
+                        <li class="footer-add"><a href="#">Services</a></li>
+                        <li class="footer-add"><a href="#">Track Package</a></li>
+                        <li class="footer-add"><a href="#">Contact us</a></li>
+                    </ul>
+                </div>
+
+                <div class="col-lg-4 col-6 footer-links">
+                    <h4 class="footer-contact">Newsletter</h4>
+                    <p class="footer-add">Stay informed with Builderz by subscribing to our
+                        newsletter.</p>
+                    <form action="forms/newsletter.php" method="post" class="php-email-form">
+                        <div class="newsletter-form"><input type="text" placeholder="Email address" class="news"
+                                fdprocessedid="iyv7d">
+                            <button fdprocessedid="lxzkoi" style="background-color: #fff; padding: 5px 10px;"><img
+                                    src="assets/img/diagonal-arrow-svgrepo-com.svg" alt="" width="10"></button>
+                        </div>
+
+
+                    </form>
+                </div>
+
+
+
+            </div>
+        </div>
+
+        <div class="container copyright mt-4 d-flex">
+            <p class="footer-company"><span>Copyright 2024</span> <strong class="px-1 sitename">BlitzIt</strong>
+                <span>All Copyright Reserved</span>
+            </p>
+            <ul class="d-flex ms-auto footer-menu" style="float: right; list-style: none;">
+                <li class="footer-add"><a href="#">Privacy Policy</a></li>
+                <li class="footer-add"><a href="#">Terms & Conditions</a></li>
+                <li class="footer-add"><a href="#">Cookie Policy</a></li>
+
+            </ul>
+        </div>
+
+    </footer>
+
+    <!-- Scroll Top -->
+    <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i
+            class="bi bi-arrow-up-short"></i></a>
+
+    <!-- Preloader -->
+    <div id="preloader"></div>
+
+    <!-- Vendor JS Files -->
+    <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/vendor/php-email-form/validate.js"></script>
+    <script src="assets/vendor/aos/aos.js"></script>
+    <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
+    <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+    <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+
+    <!-- Main JS File -->
+    <script src="assets/js/main.js"></script>
+
+
+</body>
+
+</html>
