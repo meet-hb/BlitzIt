@@ -2346,6 +2346,7 @@ section,
   font-size: 16px !important;
   font-family: "Red Hat Text" !important;
   font-weight: 600 !important;
+  color: #000 !important;
 }
 .pay-para{
   font-family: "Red Hat Text" !important;
@@ -2361,7 +2362,7 @@ section,
   font-weight: 500 !important;
   color: #000 !important;
 }
-.check-ou{
+.check-out{
   font-size: 14px !important;
   color: #000 !important;
   font-family: "Red Hat Text" !important;
@@ -2408,4 +2409,16 @@ section,
   color: #000 !important;
   font-size: 16px !important;
   font-weight: 700 !important;
+}
+.price{
+  font-size: 48px;
+  color: #000;
+  font-family: "Red Hat Text" !important;
+}
+.week{
+  font-size: 15px;
+  font-weight: 400;
+}
+.now{
+  padding: 30px 20px;
 }
